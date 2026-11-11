@@ -1,0 +1,57 @@
+[
+  {
+    "fullName": "yosef  luleseged",
+    "email": "yosefluleseged1@gmail.com",
+    "attendance": "yes",
+    "side": "groom",
+    "plusOnes": 4,
+    "dietaryRestrictions": "",
+    "message": "",
+    "id": "rsvp-1794428838535-ka1wd",
+    "createdAt": "2026-11-11T20:27:18.535Z"
+  },
+  {
+    "id": "rsvp-1",
+    "fullName": "Arthur & Claire Vance",
+    "email": "arthur.vance@example.com",
+    "attendance": "yes",
+    "side": "groom",
+    "plusOnes": 1,
+    "dietaryRestrictions": "Vegetarian for Claire",
+    "message": "We could not be prouder of you both! Looking forward to this magical day.",
+    "createdAt": "2026-11-08T19:59:51.959Z"
+  },
+  {
+    "id": "rsvp-2",
+    "fullName": "Dr. Harrison & Elizabeth Sterling",
+    "email": "harrison.sterling@example.com",
+    "attendance": "yes",
+    "side": "bride",
+    "plusOnes": 1,
+    "dietaryRestrictions": "None",
+    "message": "Wishing our beloved daughter and new son endless blessing and joy.",
+    "createdAt": "2026-11-09T19:59:51.959Z"
+  },
+  {
+    "id": "rsvp-3",
+    "fullName": "Marcus Holloway",
+    "email": "marcus.h@example.com",
+    "attendance": "yes",
+    "side": "both",
+    "plusOnes": 0,
+    "dietaryRestrictions": "Gluten-free",
+    "message": "Can't wait to toast with you both in Napa Valley! See you on the dance floor.",
+    "createdAt": "2026-11-10T19:59:51.959Z"
+  },
+  {
+    "id": "rsvp-4",
+    "fullName": "Sophia Lauren",
+    "email": "sophia.lauren@example.com",
+    "attendance": "no",
+    "side": "bride",
+    "plusOnes": 0,
+    "dietaryRestrictions": "",
+    "message": "So sorry to miss it due to international travel, but sending all my deepest love!",
+    "createdAt": "2026-11-11T07:59:51.959Z"
+  }
+]
