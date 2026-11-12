@@ -61,20 +61,20 @@ export default function Timeline({ timeline }: TimelineProps) {
               </div>
 
               {/* Card content */}
-              <div className="p-6 rounded-2xl bg-[#2a3424]/50 backdrop-blur-sm border border-[#d4af37]/15 hover:border-[#d4af37]/40 transition-all shadow-md">
-                {/* Bright, bold starting time badge optimized for mobile */}
-                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4af37]/20 border border-[#d4af37]/60 text-[#ffd700] text-xs font-bold tracking-widest uppercase mb-3 shadow-[0_0_12px_rgba(212,175,55,0.25)]">
-                  <Clock className="w-3.5 h-3.5 text-[#ffd700]" />
+              <div className="p-6 md:p-8 rounded-3xl bg-[#2a3424]/80 backdrop-blur-md border-2 border-[#fadb5f]/70 hover:border-[#ffd700] transition-all shadow-[0_0_25px_rgba(250,219,95,0.2)]">
+                {/* Ultra Bright, High-Contrast Starting Time Badge */}
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gradient-to-r from-[#ffe57f] to-[#f5c518] text-[#1a2316] font-black text-sm tracking-widest uppercase mb-4 shadow-[0_0_20px_rgba(255,229,127,0.8)] animate-pulse">
+                  <Clock className="w-4 h-4 text-[#1a2316] stroke-[2.5]" />
                   <span>{item.time}</span>
                 </div>
-                <h3 className="font-serif text-xl md:text-2xl text-warmIvory mb-2 font-medium">
+                <h3 className="font-serif text-2xl md:text-3xl text-white mb-2 font-semibold tracking-wide drop-shadow-sm">
                   {item.title}
                 </h3>
-                <div className="flex items-center gap-1.5 text-xs text-[#c0926d] mb-3">
-                  <MapPin className="w-3.5 h-3.5" />
+                <div className="flex items-center gap-1.5 text-xs text-[#ffe082] font-medium mb-3">
+                  <MapPin className="w-4 h-4 text-[#ffd700]" />
                   <span>{item.location}</span>
                 </div>
-                <p className="text-sandBeige/80 text-sm font-light leading-relaxed">
+                <p className="text-[#f5f0e8] text-sm md:text-base font-normal leading-relaxed">
                   {item.description}
                 </p>
               </div>
