@@ -55,16 +55,18 @@ export default function Timeline({ timeline }: TimelineProps) {
                 {getIcon(item.icon)}
               </div>
 
-              {/* Time display on larger screens */}
-              <div className="md:absolute md:-left-36 md:top-2 md:w-28 md:text-right font-serif text-sm tracking-wider text-[#d4af37] font-medium">
+              {/* Time display on desktop (outside card) */}
+              <div className="hidden md:block md:absolute md:-left-36 md:top-2 md:w-28 md:text-right font-serif text-sm tracking-wider text-[#d4af37] font-semibold">
                 {item.time}
               </div>
 
               {/* Card content */}
               <div className="p-6 rounded-2xl bg-[#2a3424]/50 backdrop-blur-sm border border-[#d4af37]/15 hover:border-[#d4af37]/40 transition-all shadow-md">
-                <span className="md:hidden inline-block text-xs uppercase tracking-widest text-[#d4af37] font-semibold mb-1">
-                  {item.time}
-                </span>
+                {/* Bright, bold starting time badge optimized for mobile */}
+                <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4af37]/20 border border-[#d4af37]/60 text-[#ffd700] text-xs font-bold tracking-widest uppercase mb-3 shadow-[0_0_12px_rgba(212,175,55,0.25)]">
+                  <Clock className="w-3.5 h-3.5 text-[#ffd700]" />
+                  <span>{item.time}</span>
+                </div>
                 <h3 className="font-serif text-xl md:text-2xl text-warmIvory mb-2 font-medium">
                   {item.title}
                 </h3>
